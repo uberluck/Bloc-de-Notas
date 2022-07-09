@@ -13,7 +13,7 @@ class Bloc(Frame):
     def __init__(self, master):
         super().__init__(master)
         self.master.title("Bloc de Notas")
-        self.master.geometry("480x380")
+        self.master.geometry("1366x700")
         self.master.protocol("WM_DELETE_WINDOW", self.salir)
         self.n = 12
         self.f = "Arial"
